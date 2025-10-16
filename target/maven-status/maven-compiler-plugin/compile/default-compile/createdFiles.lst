@@ -1,0 +1,7 @@
+com\mycompany\nativo\Nativo.class
+com\mycompany\nativo\ProductoServiceJDBC.class
+com\mycompany\nativo\ProductoDAOJDBC.class
+com\mycompany\nativo\IProductoService.class
+com\mycompany\nativo\Config.class
+com\mycompany\nativo\Producto.class
+com\mycompany\nativo\IProductoDAO.class
