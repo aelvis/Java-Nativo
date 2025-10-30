@@ -1,9 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
-package com.mycompany.nativo;
+package com.mycompany.nativo.servicios;
 
+import com.mycompany.nativo.modelos.Producto;
 import java.util.List;
 
 public interface IProductoService {
@@ -12,4 +9,8 @@ public interface IProductoService {
     List<Producto> listarProductos() throws Exception;
     void actualizarProducto(Producto producto) throws Exception;
     void eliminarProducto(int id) throws Exception;
+    
+    // Nuevos métodos para manejar almacenes del producto
+    void asociarAlmacenAProducto(int productoId, int almacenId) throws Exception;
+    void desasociarAlmacenDeProducto(int productoId, int almacenId) throws Exception;
 }
